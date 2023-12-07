@@ -143,7 +143,7 @@ def main():
             st.write("Choose a location")
             target = st.selectbox("Choose a location", options=df.columns[1:], index=0)
 
-        submit_btn = st.form_submit_button("Analyze", type="primary")
+        _ = st.form_submit_button("Analyze", type="primary")
 
     start_date = f"{start_quarter} {start_year}"
     end_date = f"{end_quarter} {end_year}"
