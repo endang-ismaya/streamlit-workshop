@@ -182,3 +182,5 @@ pyrightconfig.json
 */**/*.mov
 *.mp4
 *.mov
+.streamlit/
+mynotes.txt
