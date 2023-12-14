@@ -1,12 +1,13 @@
-from turtle import color
+# from turtle import color
+# import numpy as np
 import streamlit as st
 import pandas as pd
-import numpy as np
+
 
 # plotly
 import plotly.express as px
 
-data = pd.read_csv("tips.csv")
+data = pd.read_csv(r"data/tips.csv")
 
 # Reference URL: https://plotly.com/python/plotly-express/
 # 1. Draw histogram for total bill

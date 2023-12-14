@@ -1,5 +1,5 @@
-from matplotlib.pyplot import legend
-from numpy import source
+# from matplotlib.pyplot import legend
+# from numpy import source
 import streamlit as st
 import pandas as pd
 from bokeh.plotting import figure
@@ -18,7 +18,7 @@ st.bokeh_chart(p)
 # 2. Scatter plot between total_bill and tip color by options
 #   (sex, smoker, day, time)
 
-data = pd.read_csv("tips.csv")
+data = pd.read_csv(r"data/tips.csv")
 
 st.subheader("1. Scatter plot between total_bill and tip")
 
@@ -30,7 +30,7 @@ st.bokeh_chart(p)
 # question -2
 st.subheader(
     """
-2. Scatter plot between total_bill and tip color by options 
+2. Scatter plot between total_bill and tip color by options
 (sex, smoker, day, time)
 """
 )
