@@ -30,3 +30,4 @@ with st.form(key="registration_form"):
             st.warning("Firstname and Lastname are required fields")
         else:
             st.success("Registration has been submitted")
+            print(st.session_state.registration_form)
