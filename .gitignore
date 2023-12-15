@@ -186,3 +186,4 @@ pyrightconfig.json
 mynotes.txt
 resources/
 */**/*.db
+pg_auth.py
