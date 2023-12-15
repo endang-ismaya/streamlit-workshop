@@ -185,3 +185,4 @@ pyrightconfig.json
 .streamlit/
 mynotes.txt
 resources/
+*/**/*.db
